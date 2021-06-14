@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <title>Form</title>
+    <h1><b>Admission Form</b></h1>
+    <body>
+        <form>
+        <table border="1">
+<tr>
+    <td>
+        
+            NAME: <input type="text" value="" placeholder="Username" required>
+        
+    </td>
+</tr>
+<tr>
+    <td>
+        
+            DOB:<input type="date" value="">
+        
+    </td>
+</tr>
+<tr>
+    <td>
+        
+           Fathers's Name<input type="text" value="" placeholder="Name">
+       
+    </td>
+</tr>
+<tr>
+    <td>
+        
+            Mother,s Name<input type="text" value="" placeholder="Name">
+        
+    </td>
+</tr>
+<tr>
+    <td>
+         
+            Course
+            <select>
+                <option>BTECH</option>
+                <option>BHM</option>
+                <option>BSC</option>
+                <option>BPT</option>
+                <option>BMC</option>
+            </select>
+        
+    </td>
+</tr>
+<tr><td><
+    Gender<input type="radio">Male
+    <input type="radio">FeMale
+    <input type="radio">Other
+</td></tr>
+<tr>
+    <td>
+        
+            Phone Number:<input type="tel" placeholder="Number">
+        
+    </td>
+</tr>
+<tr>
+    <td>
+        
+            State:<input type="text" placeholder="State">
+        
+    </td>
+</tr>
+
+<tr>
+    <td>
+        
+            City<input type="text" value="" placeholder="City">
+        
+    </td>
+</tr>
+
+<tr>
+    <td>
+        
+            Address<textarea rows="6" cols="20" value="" placeholder="Address"></textarea>
+        
+    </td>
+</tr>
+<tr>
+    <td>
+        <input type="submit">
+        <input type="reset">
+    </td>
+</tr>
+        </table>
+    </form> 
+    </body>
+</html>
